@@ -65,19 +65,29 @@ export default {
   }
 
   &--filled-green {
-    background-color: $green;
-    color: $light;
+    background-color: #f5f5f7;
+    color: #7c7d9c;
   }
 
   &--tertiary {
     color: $blue;
+  }
+  &--full {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 4.375rem;
+  }
+  &--half {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 4.375rem;
   }
   &--lg {
     padding: 1rem 4rem;
     border-radius: 4.375rem;
   }
   &--md {
-    padding: 0.625rem 1.25rem;
+    padding: 1rem;
     border-radius: 4.375rem;
     &#{$btn}--icon {
       padding: 0.625rem;

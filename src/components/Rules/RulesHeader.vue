@@ -19,11 +19,12 @@ export default {
 
 
 
-<style lang="scss" scoped>
-@import "@/assets/_variables.scss"; //  remove
+<style lang="scss">
+@import "@/assets/_variables.scss"; //  remove later
 
 .header {
-  border-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   margin-top: 20px; //remove later
   background: linear-gradient(180deg, #567ef1 0%, #5da3ff 100%);
   padding: 1.125rem 1.875rem 1.125rem 1.875rem;
@@ -36,6 +37,7 @@ export default {
   }
   &__setup {
     font-size: 0.875rem;
+    font-weight: 700;
     margin-right: 1.875rem;
     color: $light;
   }
